@@ -1,4 +1,3 @@
-/* Estilos principales para el inicio */
 .contenedor-principal {
     max-width: 1200px;
     width: 90%;
@@ -6,7 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Sección 1: Hero (Amarillo) */
+
 .hero-section {
     border: thin solid rgb(235, 221, 26);
     border-radius: 15px;
@@ -48,7 +47,7 @@
     box-shadow: none;
 }
 
-/* Sección 2: Platos (Azul/Rojo) */
+
 .platos-section {
     border: thin solid rgb(26, 117, 235);
     border-radius: 15px;
