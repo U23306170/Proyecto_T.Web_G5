@@ -4,38 +4,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comida Peruana</title>
+    <title>Login - Comida Peruana</title>
     <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
     <link rel="stylesheet" href="css/main.css">
-    <style></style>
+    <link rel="stylesheet" href="/css/footer.css">
 </head>
 
 <body>
     <header>
-        <link rel="stylesheet" href="login.html">
+        <h3>Restaurant Comida Peruana</h3>
+        <nav style="text-align: end;">
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="login.html">Iniciar sesión</a>
+            <hr>
+        </nav>
     </header>
-    <main>
-        <h3>Iniciar sesión</h3>
-        <form action="index.html" style="width: 300px;
-         background-color: rgb(248, 208, 75);
-          margin: 0auto;
-            text-align:left;">
-            <fieldset>
-                <legend>Incio de sesión</legend>
+    <form action="index.html">
+        <fieldset>
+            <legend>
+                <h3>Inicio de sesión</h3>
+            </legend>
+            <div>
                 <label for="usuario">Usuario</label>
                 <input type="text" id="usuario">
-                <br>
-                <label for="correo">correo</label>
+            </div>
+            <div>
+                <label for="correo">Correo</label>
                 <input type="email" id="Correo">
-                <br>
+            </div>
+            <div>
                 <label for="clave">Contraseña</label>
                 <input type="password" id="clave">
-            </fieldset>
+            </div>
+            <button >Acceder</button>
+        </fieldset>
+    </form>
 
-            <input type="submit" value="Ingresar">
-        </form>
 
-    </main>
+    
+    <footer>
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <img src="/icon/apple-touch-icon.png" alt="png" width="60">
+                    </th>
+
+                    <th colspan="2">
+                        <div>
+                            <h3>
+                                Siguenos en:
+                            </h3>
+                            <a href=" https://facebook.com" target="_blank">
+                                <img src="/img/image-tiktok.png" alt="Tiktok" width="20">
+                            </a>
+
+                            <a href="https://facebook.com" target="_blank">
+                                <img src="/img/image-facebook.png" alt="Instagram" width="20">
+                            </a>
+
+                            <a href="https://facebook.com" target="_blank">
+                                <img src="/img/image.png" alt="Facebook" width="20">
+                            </a>
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <h4>Servicio al Cliente</h4>
+                    </td>
+                    <td>
+                        <h4>Sobre Comida Peruana</h4>
+                    </td>
+                    <td>
+                        <h4>Ayuda y legales</h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul style="text-align: start;">
+                            <li>Devoluciones</li>
+                            <li>Encuestas de satisfacción</li>
+                            <li>transferencias</li>
+                            <li>Libro de reclamaciones</li>
+                        </ul>
+                       
+                    </td>
+                    <td>
+                        <ul style="text-align: start;">
+                            <li>La carta</li>
+                            <li>Pedir por delivery</li>
+                            <li>Locales</li>
+                            <li>Trabaja con nosotro</li>
+                        </ul>
+                        
+                    </td>
+                    <td>
+                        <ul style="text-align: start;">
+                            <li>Política de Privacidad</li>
+                            <li>Políticas de cookies</li>
+                            <li>Políticas de videovigilancia</li>
+                            <li>Términos y condiciones de uso</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </footer>
 </body>
 
 </html>
